@@ -1,4 +1,5 @@
 daemons:
   nginx:
     run:
-      docker run --rm nginx:latest
+      cmd: docker run --rm nginx:latest
+      
