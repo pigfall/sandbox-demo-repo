@@ -1,5 +1,5 @@
 daemons:
   nginx:
     run:
-      cmd: docker run --rm nginx:latest
+      cmd: docker run --rm -it -p 80:80 nginx:latest
       
